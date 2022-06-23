@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELFINA HAIR</title>
+    <link rel="stylesheet" href="../CSS/turnos.css">
+    <link rel="icon" href="../Foto/DEL.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;700&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="headerDph">
+        <h1 class="tituloHeader">DELFINA HAIR</h1>
+    </header>
+    <nav class="navDph">
+        <a href="dph.html" class="navIndividuales">Home</a>
+        <a href="about.html" class="navIndividuales">About</a>
+        <a href="campañas.html" class="navIndividuales">Campañas</a>
+        <a href="TV.html" class="navIndividuales">TV</a>
+        <a href="turnos.html" class="navIndividuales">Turnos</a>
+    </nav>
+    <article class="fraseDph">
+        <p class="fraseDph"><i>Recorda guardar tu turno con anticipación. Dejanos tus datos abajo y nos comunicamos con vos para confirmar tu reserva!</i></p>
+    </article>
+    <section class="turnosDph">
+        <h3 class="h3tit">SOLICITA TU TURNO</h3>
+        <div class="formTurnos">
+            <form>
+                <label>Nombre: </label>
+                <input type="text" name="Nombre" id="nombre" placeholder="Delfina" />
+                <br />
+                <label>Apellido: </label>
+                <input
+                  type="text"
+                  name="Apellido"
+                  id="apellido"
+                  placeholder="Paz Zavalia"
+                />
+                <br />
+                <label>Fecha del evento </label>
+                <input type="date" name="Fecha" id="fecha" />
+                <br />
+                <label>Hora: </label>
+                <input type="time" name="hora" id="Hora" />
+                <br />
+                <label>Cantidad de personas: </label>
+                <input type="number" name="Personas" id="personas" placeholder="1" />
+                <br />
+                <label>Telefono </label>
+                <input
+                  type="number"
+                  name="Telefono"
+                  id="telefono"
+                  placeholder="3813337887"
+                />
+                <br />
+                <label>eMail: </label>
+                <input
+                  type="email"
+                  required
+                  name="Nombre"
+                  id="nombre"
+                  placeholder="delfipazzavalia@hotmail.com"
+                />
+                <br />
+                <label for="">Zona</label>
+                <select name="Zona" id="zona">
+                  <option value="Yerba Buena">Yerba Buena</option>
+                  <option value="San Miguel de Tucuman">San Miguel de Tucuman</option>
+                  <option value="Otro">Otro</option>
+                </select>
+                <br />
+                <label for="">Ocasión</label>
+                <select name="Ocasión" id="Ocasión">
+                  <option value="novia">Novia</option>
+                  <option value="social">Social</option>
+                  <option value="produccion">Produccion</option>
+                </select>
+                <br />
+                <button>Enviar</button>
+              </form>
+        </div>
+    </section>
+    <footer class="fondoFooter">
+        <h3 class="tituloFooter">CONTACTANOS</h3>
+        <section class="links">
+        <a href="https://www.instagram.com/delfip.hair/" target="_blank"
+          class="linkInd" >Instagram</a>
+        <a href="https://wa.link/o28plw" target="_blank" class="linkInd" >WhatsApp</a>
+        </section>
+        <form class="formNews">
+            <label>Suscribite a nuestro newsletter: </label>
+            <input
+              type="email"
+              required
+              name="Nombre"
+              id="nombre"
+              placeholder="delfipazzavalia@hotmail.com"
+            /><button>Enviar</button>
+        </form>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DelfiP.Hair</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;700&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="encabezadoDePag">
+      <img class="logoDelfiP" src="../Foto/DEL BLANCO.png" alt="logo delfi" />
+    </header>
+    <nav class="menuNavegador">
+      <a href="About.html" class="about" target="_blank">About</a>
+      <a href="Social.html" class="social" target="_blank">Social</a>
+      <a href="Producciones.html" class="producciones" target="_blank">Producciones</a>
+      <a href="Programa.html" class="programa" target="_blank">Programa</a>
+    </nav>
+    <main class="fondoMedio">
+      <section>
+        <h1 class="masRecientes">MÁS RECIENTES...</h1>
+        <img class="tresFotos" src="../Foto/peinados3.jpg" alt="peinado" />
+      </section>
+    </main>
+    <main class="fondoMedioDos">
+      <section>
+        <h1 class="novias">NOVIAS</h1>
+        <video
+          class="videoNovias"
+          src="../Video/novia.mp4"
+          autoplay
+          controls
+        ></video>
+      </section>
+    </main>
+    <main class="fondoFrase">
+      <section>
+        <h2 class="tituloFrase">Delfina Paz Zavalia</h2>
+        <p class="frase">
+          Nos renovamos constantemente, seguimos las tendencias, las creamos
+          pero también sabemos adaptarlas al estilo de cada clienta, lo que más
+          nos importa es que todas se vayan con un buen look.
+        </p>
+      </section>
+    </main>
+          <section class="sectionEventoTit">
+        <h2 class="tituloEvento">Eventos</h2>
+      </section>
+      <section class="fondoEventoLis">
+        <ul class="listaEvento">
+          <li>Casamientos</li>
+          <li>Quinces</li>
+          <li>Egresadas</li>
+          <li>Cumpleaños</li>
+          <li>Cenas laborales</li>
+        </ul>
+      </section>
+    </main>
+    <main  class="fondoTurnos">
+    <section>
+      <h1 class="tituloTurnos">TURNOS</h1>
+      <br>
+      <h2 class="tituloInfoTur">Info para turnos</h2>
+      <table class="tablaTur" border="1">
+        <tr>
+          <th>Nombre y Apellido</th>
+          <th>Fecha y Hora</th>
+          <th>Cantidad de personas</th>
+          <th>Telefono</th>
+          <th>eMail</th>
+          <th>Zona</th>
+          <th>Ocasión</th>
+        </tr>
+        <td>Delfina Paz Zavalia</td>
+        <td>25/08 20.30hs</td>
+        <td>1</td>
+        <td>3813337337</td>
+        <td>delfipazzavaliahotmail@hotmail.com</td>
+        <td>Yerba Buena</td>
+        <td>Social</td>
+      </table>
+
+    <br />
+    <br />
+    <h3 class="tituloDejaTuInfo">Dejanos tu info para sacar tu turno</h3>
+    <br />
+
+      <form class="formulario">
+        <label>Nombre: </label>
+        <input type="text" name="Nombre" id="nombre" placeholder="Delfina" />
+        <br />
+        <label>Apellido: </label>
+        <input
+          type="text"
+          name="Apellido"
+          id="apellido"
+          placeholder="Paz Zavalia"
+        />
+        <br />
+        <label>Fecha del evento </label>
+        <input type="date" name="Fecha" id="fecha" />
+        <br />
+        <label>Hora: </label>
+        <input type="time" name="hora" id="Hora" />
+        <br />
+        <label>Cantidad de personas: </label>
+        <input type="number" name="Personas" id="personas" placeholder="1" />
+        <br />
+        <label>Telefono </label>
+        <input
+          type="number"
+          name="Telefono"
+          id="telefono"
+          placeholder="3813337887"
+        />
+        <br />
+        <label>eMail: </label>
+        <input
+          type="email"
+          required
+          name="Nombre"
+          id="nombre"
+          placeholder="delfipazzavalia@hotmail.com"
+        />
+        <br />
+        <label for="">Zona</label>
+        <select name="Zona" id="zona">
+          <option value="Yerba Buena">Yerba Buena</option>
+          <option value="San Miguel de Tucuman">San Miguel de Tucuman</option>
+          <option value="Otro">Otro</option>
+        </select>
+        <br />
+        <label for="">Ocasión</label>
+        <select name="Ocasión" id="Ocasión">
+          <option value="novia">Novia</option>
+          <option value="social">Social</option>
+          <option value="produccion">Produccion</option>
+        </select>
+        <br />
+        <button>Enviar</button>
+      </form>
+    </section>
+    </main>
+    <section class="fondoUbic">
+      <h2 class="tituloUbic">Ubicación</h2>
+      <br />
+      <iframe class="mapaUbic"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56973.348569491514!2d-65.33037766296346!3d-26.813404687635273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9422433a2ee1bffb%3A0xc5d4083eee0d98b1!2sYerba%20Buena%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1652896987069!5m2!1ses!2sar"
+        width="360"
+        height="270"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <footer class="fondoFooter">
+      <h3 class="tituloFooter">Contactanos</h3>
+      <section class="links">
+      <a href="https://www.instagram.com/delfip.hair/" target="_blank"
+        >INSTAGRAM</a>
+  
+      <a href="https://wa.link/o28plw" target="_blank">WHATSAPP</a>
+      </section>
+    </footer>
+  </body>
+</html>

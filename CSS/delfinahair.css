@@ -1,0 +1,70 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    }
+body {
+    font-family: 'Akshar', sans-serif;
+    }
+.delfinaHair{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+}
+.navGeneral{
+    background-color: rgb(39, 39, 39);
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 110px;
+}
+.navIndividuales{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+.mainContenedor{
+}
+.sectionFrase{
+    background-color: rgb(63, 63, 63);
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 160px;
+}
+.h2SectionMain{
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.textoFrase
+.sectionSocial{
+    top: 360px;
+}
+.h3SectionMain
+.carouselPic{
+    width: 20px;
+    height: 80px;
+}
+.carousel-inner> .item> img {
+    width: 640px; 
+    height: 360px; 
+   }
+.sectionNovias
+.videoNovias
+.footerContenedor
+.sectionFooterContact
+.h4Footer
+.sectionFooterNews

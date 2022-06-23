@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DELFINA.HAIR</title>
+    <link rel="stylesheet" href="../CSS/styledelfi.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;700&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="headerDelfina">DELFINA.HAIR</header>
+    <nav class="navDelfina">
+      <a href="About.html" target="_blank" class="navIndividuales" >About</a>
+      <a href="Social.html" target="_blank" class="navIndividuales" >Social</a>
+      <a href="Producciones.html" target="_blank" class="navIndividuales">Producciones</a>
+      <a href="Programa.html" target="_blank" class="navIndividuales">Programa</a>
+    </nav>
+    <main class="contenidoMain">
+      <section class="sectionSocial">
+        <article>
+          <h1 class="titulosMain">SOCIALES</h1>
+          <img class="imgSocial" src="../Foto/peinados3.jpg" alt="peinado" />
+        </article>
+      </section>
+      <section class="sectionNovias">
+        <article>
+          <h1 class="titulosMain">NOVIAS</h1>
+          <video
+            class="videoNovias"
+            src="../Video/novia.mp4"
+            autoplay
+            controls
+          ></video>
+        </article>
+      </section>
+      <section class="sectionFrase">
+        <article>
+          <h1 class="titulosMain">DELFINA PAZ ZAVALIA</h1>
+          <p class="textoMain">
+            Nos renovamos constantemente, seguimos las tendencias, las creamos
+            pero también sabemos adaptarlas al estilo de cada clienta, lo que
+            más nos importa es que todas se vayan con un buen look.
+          </p>
+        </article>
+      </section>
+      <section class="sectionServicios">
+        <article>
+          <h1 class="titulosMain">SERVICIOS</h1>
+          <ul class="listaServicios">
+            <li>Novias</li>
+            <li>Social</li>
+            <li>Producciones y Campañas</li>
+            <li>TV</li>
+          </ul>
+        </article>
+      </section>
+      <section class="sectionPresup">
+        <h1 class="titulosMain">PRESUPUESTOS</h1>
+        <p class="textoMain">Dejanos la info y te mandamos tu presupuesto</p>
+        <table class="tablaPresup" border="1">
+          <tr>
+            <th>Nombre y Apellido</th>
+            <th>Servicio</th>
+            <th>Fecha y hora</th>
+            <th>Cantidad de personas</th>
+            <th>Telefono</th>
+            <th>eMail</th>
+            <th>Zona</th>
+          </tr>
+          <td>Delfina Paz Zavalia</td>
+          <td>Produccion</td>
+          <td>25/08 a las 14.00</td>
+          <td>4</td>
+          <td>3813337337</td>
+          <td>delfipazzavaliahotmail@hotmail.com</td>
+          <td>Yerba Buena</td>
+        </table>
+      </section>
+      <section class="sectionUbicacion">
+          <h1 class="titulosMain">UBICACIÓN</h1>
+        <iframe
+        class="mapaUbi"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56973.348569491514!2d-65.33037766296346!3d-26.813404687635273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9422433a2ee1bffb%3A0xc5d4083eee0d98b1!2sYerba%20Buena%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1652896987069!5m2!1ses!2sar"
+        width="360"
+        height="270"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      </section>
+    </main>
+    <aside class="contenidoAside">
+      <section>
+        <h2 class="tituloAside">TURNOS</h2>
+        <form class="formuAside">
+          <label>Nombre: </label>
+          <input type="text" name="Nombre" id="nombre" placeholder="Delfina" />
+          <br />
+          <label>Apellido: </label>
+          <input
+            type="text"
+            name="Apellido"
+            id="apellido"
+            placeholder="Paz Zavalia"
+          />
+          <br />
+          <label>Fecha del evento </label>
+          <input type="date" name="Fecha" id="fecha" />
+          <br />
+          <label>Hora: </label>
+          <input type="time" name="hora" id="Hora" />
+          <br />
+          <label>Cantidad de personas: </label>
+          <input type="number" name="Personas" id="personas" placeholder="1" />
+          <br />
+          <label>Telefono </label>
+          <input
+            type="number"
+            name="Telefono"
+            id="telefono"
+            placeholder="3813337887"
+          />
+          <br />
+          <label>eMail: </label>
+          <input
+            type="email"
+            required
+            name="Nombre"
+            id="nombre"
+            placeholder="delfipazzavalia@hotmail.com"
+          />
+          <br />
+          <label for="">Zona</label>
+          <select name="Zona" id="zona">
+            <option value="Yerba Buena">Yerba Buena</option>
+            <option value="San Miguel de Tucuman">San Miguel de Tucuman</option>
+            <option value="Otro">Otro</option>
+          </select>
+          <br />
+          <label for="">Ocasión</label>
+          <select name="Ocasión" id="Ocasión">
+            <option value="novia">Novia</option>
+            <option value="social">Social</option>
+            <option value="produccion">Produccion</option>
+          </select>
+          <br />
+          <button>Enviar</button>
+        </form>
+      </section>
+    </aside>
+    <footer class="contenidoFooter">
+        <section class="sectionFooter">
+            <h3 class="tituloFooter">Contactanos</h3>
+            <section class="links">
+            <a href="https://www.instagram.com/delfip.hair/" target="_blank"
+              >INSTAGRAM</a>
+        
+            <a href="https://wa.link/o28plw" target="_blank">WHATSAPP</a>
+        </section>
+    </footer>
+  </body>
+</html>
